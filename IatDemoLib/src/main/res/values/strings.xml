@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">IatDemo</string>
+
+    <!-- 请替换成在语音云官网申请的appid -->
+    <string name="app_id">5c85bd2f</string>
+
+    <string name="text_begin">请开始说话&#8230;</string>
+
+    <string-array name="names">
+        <item>全部</item>
+        <item>田林</item>
+        <item>郭佳</item>
+        <item>刘琳鸽</item>
+        <item>黄敏</item>
+        <item>张二祥</item>
+        <item>韩海涛</item>
+        <item>孙传军</item>
+        <item>尚红军</item>
+        <item>胡皓</item>
+        <item>宋哲</item>
+        <item>郑建民</item>
+        <item>吴秀峰</item>
+        <item>谢逊</item>
+    </string-array>
+</resources>

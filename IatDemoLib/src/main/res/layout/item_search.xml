@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:padding="8dp"
+    android:gravity="center_horizontal"
+    android:layout_height="80dp">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="待办工作票#1"
+        android:textSize="20sp"
+        android:drawablePadding="4dp"
+        android:drawableTint="#0D0D0D"
+        android:textColor="#0D0D0D"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_below="@id/tv_title"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#0D0D0D"
+            android:text="创建人:"/>
+
+        <TextView
+            android:id="@+id/tv_creator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:textColor="#0D0D0D"
+            android:text="田林"/>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/iv_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_action_right"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/iv_right"
+        android:layout_marginTop="4dp"
+        android:layout_below="@id/tv_title"
+        android:text="2019-03-20"/>
+
+</RelativeLayout>

@@ -1,0 +1,6 @@
+#BNF+IAT 1.0 utf-8;
+!grammar call;
+!slot <list>;
+!start <speech>;
+<speech>:<list>;
+<list>:盲人听书|在线音乐|影音播放|小说;
